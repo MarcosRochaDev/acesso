@@ -59,6 +59,14 @@ header{
     
 }
 
+.item-menu-segmento li{
+    display: none;
+}
+.segmento ul li:hover, .item-menu-segmento li a:hover{
+    display: block;
+    
+}
+
 .menu a{
     border-bottom: rgb(238, 227, 227) 0px solid;    
     color: brown;
