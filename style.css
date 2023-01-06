@@ -62,11 +62,12 @@ header{
 .item-menu-segmento li{
     display: none;
 }
-.segmento ul li:hover, .item-menu-segmento li a:hover{
+
+.menu>ul>li>a:hover, .item-menu-segmento ul li a:hover{
     display: block;
+    padding: 2px;
     
 }
-
 .menu a{
     border-bottom: rgb(238, 227, 227) 0px solid;    
     color: brown;
