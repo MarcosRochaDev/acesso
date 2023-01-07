@@ -67,15 +67,21 @@
     border-radius: 5px;
 }
 
+.contact img:hover, .contact p:hover{
+    box-shadow: 0px 0px 2px 5px #fdfbfd;
+}
 #ligamos{
     border-radius: 1rem;
     background: orange;
     padding: .6rem;
+    transition: 250ms;
     
 }
-#ligamos:hover, #ligamos:hover a{
-    background: #330066;
-    color: #e9a82f;
+#ligamos:hover a{
+    color: #f5f3f0;
+    }
+#ligamos:hover{
+    box-shadow: 0px 0px 2px 5px #fdfbfd;
 }
 
 .menu ul{
@@ -97,7 +103,7 @@
     border-radius: 16px;
     background-color: #fbfdfd;
     padding: 4px;
-    border: #3300661c 1px solid;
+    box-shadow: 0px 0px 2px 5px #fdfbfd;
     
 }
 
@@ -117,9 +123,10 @@ main{
 }
 .container-main{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: auto auto;
     text-align: left;
+    
 }
 .container-main img{
     width: 40%;
@@ -127,5 +134,60 @@ main{
 }
 .text1{
     display: block;
-    width: 500px;
+    width: 300px;
+    margin: 30px;
+    color:#330066;
+    text-align: justify;
+
+}
+.text1 h1 {
+    font-size: x-large;
+    
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.bl{
+    display: flex;
+    border: #330066 1px solid;
+    width: 230px;
+    height: 230px;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+.pt1{
+    font-size: 14px;
+    padding: 20px;
+}
+
+
+
+
+
+/*----------------------------*/
+
+footer{
+    width: 100vw;
+    height: 25px;
+    background-color: #d80b34;
+    padding: 0%;
+    margin: 0%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer div{
+    
+    text-align: center;
+    color: #fbfdfd;
+    font-size: smaller;
+    align-content: center;
+    
+    
 }
