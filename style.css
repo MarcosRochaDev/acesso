@@ -49,6 +49,20 @@
     color: orange
 }
 
+.contact{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    
+    
+}
+.contact p{
+    font-weight: bold;
+    color: var(--cor-fonte);
+    font-size: 20px;
+}
+
+
 #ligamos{
     border-radius: 1rem;
     background: orange;
