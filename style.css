@@ -31,7 +31,7 @@
 }
 
 .header img{
-    width: 60px;
+    width: 8%;
     box-shadow: 0px 2px 10px 10px #e1e5fa;
           
 }
@@ -62,6 +62,10 @@
     font-size: 20px;
 }
 
+.contact img{
+    width: 30px;
+    border-radius: 5px;
+}
 
 #ligamos{
     border-radius: 1rem;
@@ -77,14 +81,23 @@
 .menu ul{
     display:flex;
     gap: 3rem;
+    
 }
 .menu{
     align-items: center;
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin-top: 16px;
+    font-size: 20px;
     
-    font-weight: bold;
+    transition: 350ms;
+}
+.menu a:hover{
+    border-radius: 16px;
+    background-color: #fbfdfd;
+    padding: 4px;
+    border: #3300661c 1px solid;
     
 }
 
@@ -98,7 +111,21 @@
 }
 
 main{
-    margin-top: 30px;
+    margin-top: 15px;
     padding: 2%;
     
+}
+.container-main{
+    display: flex;
+    justify-content: space-between;
+    margin: auto auto;
+    text-align: left;
+}
+.container-main img{
+    width: 40%;
+    border-radius: 5px;
+}
+.text1{
+    display: block;
+    width: 500px;
 }
