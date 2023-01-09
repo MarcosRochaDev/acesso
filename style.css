@@ -59,7 +59,7 @@
 .contact p{
     font-weight: bold;
     color: var(--cor-fonte);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .contact img{
@@ -96,6 +96,7 @@
     flex-direction: column;
     margin-top: 16px;
     font-size: 20px;
+    border-bottom: #f6fafa1c 0px solid;
     transition: 350ms;
 }
 .menu a:hover{
@@ -103,7 +104,8 @@
     /*background-color: #656b6b;*/
     padding: 0px;
     box-shadow: 0px 0px 2px 5px #fdfbfd;
-    border-bottom: #330066 1px solid;
+    border-bottom: #330066 .125rem solid;
+    
 }
 
 .item-menu-segmento li{
@@ -178,7 +180,7 @@ main{
 /*----------------------------*/
 
 footer{
-    width: 100vw;
+    width: 100%;
     height: 25px;
     background-color: #d80b34;
     padding: 0%;
@@ -186,6 +188,7 @@ footer{
     align-content: center;
     align-items: center;
     text-align: center;
+    
 }
 
 footer div{
@@ -194,6 +197,4 @@ footer div{
     color: #fbfdfd;
     font-size: smaller;
     align-content: center;
-    
-    
 }
