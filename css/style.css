@@ -100,7 +100,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 16px;
-    font-size: 20px;
+    font-size: 18px;
     border-bottom: #f6fafa1c 0px solid;
     transition: 350ms;
 }
@@ -124,7 +124,7 @@
 
 /*------------------------*/
 main{
-    margin-top: 15px;
+    margin-top: 6px;
     padding: 2%;
     
 }
@@ -141,20 +141,25 @@ main{
 }
 .text1{
     display: block;
-    width: 300px;
-    margin: 30px;
+    width: 350px;
+    margin: 5px;
     color:#330066;
-    text-align: justify;
-
+    float: left;
+    text-align:justify ;
 }
 .text1 h1 {
-    font-size: x-large;
+    font-size:25px;
+    text-align: center;
+}
+
+.text1 p {
+    font-size:20px;
     
 }
 .section2{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 10px;
     
 }
 .bl{
@@ -176,7 +181,7 @@ main{
 }
 .pt1{
     font-size: 14px;
-    padding: 20px;
+    padding: 10px;
 }
 
 
@@ -205,13 +210,105 @@ footer div{
     align-content: center;
 }
 
+
+/*menu dropbox-------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
 /*-----------responsividade-------------*/
 
-@media screen and (max-width: 300px){
+/*-------------980px-------------------*/
+
+
+@media screen and (max-width: 960px){
+
+     *{
+        transition: all 0.3s;
+     }   
+    .header h2{
+        font-size: 19px;
+    }
+    .header p{
+        font-size: 13px;
+        
+    }
+    #ligamos{
+        padding: 2px;
+        border-radius: 3px;
+    }
+    .text1 h1{
+        font-size: 18px;
+    }
+    .text1 p{
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .section2 .bl{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .section2 .pt1{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .menu{
+        font-size: 16px;
+    }
+
+}
+
+/*-------------750px-------------------*/
+@media screen and (max-width: 750px){
+
+    .contact{
+      display: block;
+      text-align: center;
+      
+    }
+
+    .contact img{
+        width: 18px;
+        margin-top: 9px;
+     }
+
+     .contact p{
+        font-size: 18px;
+            
+         }
+     
+ 
+ 
+      .header{
+          padding: 9px;
+      }
+      .menu{
+          font-size: 14px;
+      }
+  
+  }
+
+
+
+
+/*-------------620px-------------*/
+
+@media screen and (max-width: 620px){
 
     header{
         display: none;
     }
+
 
 .header-mobile{
     display: block;
@@ -219,19 +316,23 @@ footer div{
     background-color: rgb(242, 250, 240);
     box-shadow: 0px 0px 2px 5px #dfdcd7;
     align-content: center;
-    padding: 5px;
+          
+}
+
+.header-mobile img{
+    margin-top: 10px;
 }
 .contact-mobile{
     display: inline;
     align-items: center;
-    margin: 15px;
+    
     
 }
 .contact-mobile p{
     font-weight: bold;
     color: var(--cor-fonte);
     font-size: 25px;
-    padding: 0%;
+    padding: 5%;
 }
 
 .contact-mobile img{
@@ -252,19 +353,19 @@ footer div{
 
 
 .container-main{
-    display: inline-block;
-    padding: 1px;
-    margin: 2px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     align-items: center;
-    align-content: center;
-    width: 100%;
     
 }
+.text1{
+    width: 100%;
+    margin: 5px;
+}
 .text1 h1{
-    font-size: 20px;
     text-align: center;
-    padding: 0%
+    font-size: 28px;
     
 }
 
@@ -279,92 +380,20 @@ footer div{
     display: inline-block;
     padding: 1px;
     width: 100%;
-    
+    overflow: hidden;
 }
 .bl{
   width: auto;
-    
+  font-size: 25px  
+  
 }
 
-}
-/*-------------------------------------*/
-@media screen and (max-width: 560px){
-
-    header{
-        display: none;
-    }
-
-.header-mobile{
-    display: block;
-    text-align: center;
-    background-color: rgb(242, 250, 240);
-    box-shadow: 0px 0px 2px 5px #dfdcd7;
-    align-content: center;
-    padding: 5px;
-}
-.contact-mobile{
-    display: inline;
-    align-items: center;
-    margin: 15px;
-    
-}
-.contact-mobile p{
-    font-weight: bold;
-    color: var(--cor-fonte);
-    font-size: 25px;
-    padding: 0%;
-}
-
-.contact-mobile img{
-    width: 20px;
-    border-radius: 5px;
-    
-}
-.menu{
-    display: none;
-}
-#ligamos{
-    border-radius: 1rem;
-    background: orange;
-    padding: .3rem;
+.bl1 p{
     font-size: 20px;
-    transition: 250ms;
+    line-height: 25px;
 }
-
-
-.container-main{
-    display: inline-block;
-    padding: 1px;
-    margin: 2px;
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    
+.bl1 .pt1{
+    font-size: 16px;
+    line-height: 30px;
 }
-.text1 h1{
-    font-size: 20px;
-    text-align: center;
-    padding: 0%
-    
-}
-
-.text1 p{
-    font-size: 18px;
-    
-}
-.container-main img{
-    width: 100%;
-}
-.section2{
-    display: inline-block;
-    padding: 1px;
-    width: 100%;
-    
-}
-.bl{
-  width: auto;
-    
-}
-
 }
