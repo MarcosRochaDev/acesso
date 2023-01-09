@@ -207,6 +207,87 @@ footer div{
 
 /*-----------responsividade-------------*/
 
+@media screen and (max-width: 300px){
+
+    header{
+        display: none;
+    }
+
+.header-mobile{
+    display: block;
+    text-align: center;
+    background-color: rgb(242, 250, 240);
+    box-shadow: 0px 0px 2px 5px #dfdcd7;
+    align-content: center;
+    padding: 5px;
+}
+.contact-mobile{
+    display: inline;
+    align-items: center;
+    margin: 15px;
+    
+}
+.contact-mobile p{
+    font-weight: bold;
+    color: var(--cor-fonte);
+    font-size: 25px;
+    padding: 0%;
+}
+
+.contact-mobile img{
+    width: 20px;
+    border-radius: 5px;
+    
+}
+.menu{
+    display: none;
+}
+#ligamos{
+    border-radius: 1rem;
+    background: orange;
+    padding: .3rem;
+    font-size: 20px;
+    transition: 250ms;
+}
+
+
+.container-main{
+    display: inline-block;
+    padding: 1px;
+    margin: 2px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    
+}
+.text1 h1{
+    font-size: 20px;
+    text-align: center;
+    padding: 0%
+    
+}
+
+.text1 p{
+    font-size: 18px;
+    
+}
+.container-main img{
+    width: 100%;
+}
+.section2{
+    display: inline-block;
+    padding: 1px;
+    width: 100%;
+    
+}
+.bl{
+  width: auto;
+    
+}
+
+}
+/*-------------------------------------*/
 @media screen and (max-width: 560px){
 
     header{
@@ -241,6 +322,49 @@ footer div{
 }
 .menu{
     display: none;
+}
+#ligamos{
+    border-radius: 1rem;
+    background: orange;
+    padding: .3rem;
+    font-size: 20px;
+    transition: 250ms;
+}
+
+
+.container-main{
+    display: inline-block;
+    padding: 1px;
+    margin: 2px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    
+}
+.text1 h1{
+    font-size: 20px;
+    text-align: center;
+    padding: 0%
+    
+}
+
+.text1 p{
+    font-size: 18px;
+    
+}
+.container-main img{
+    width: 100%;
+}
+.section2{
+    display: inline-block;
+    padding: 1px;
+    width: 100%;
+    
+}
+.bl{
+  width: auto;
+    
 }
 
 }
