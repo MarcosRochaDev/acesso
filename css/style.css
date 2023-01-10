@@ -143,18 +143,20 @@ main{
 .text1{
     display: block;
     width: 350px;
-    margin: 5px;
+    margin-right: 60px;
     color:#330066;
     float: left;
     text-align:justify ;
 }
 .text1 h1 {
-    font-size:25px;
+    font-size:23px;
     text-align: center;
+    
 }
 
 .text1 p {
-    font-size:20px;
+    font-size: 20px;
+    line-height: 30px;
     
 }
 .section2{
@@ -308,32 +310,31 @@ footer div{
 
 
 .header-mobile{
-    display: block;
+    display: contents;
     text-align: center;
     background-color: rgb(242, 250, 240);
-    box-shadow: 0px 0px 2px 5px #dfdcd7;
-    align-content: center;
-          
-}
+    box-shadow: 0px 0px 2px 5px #3f331d;
+    }
 
 .header-mobile img{
-    margin-top: 10px;
+    margin: 5px;
+    
 }
 .contact-mobile{
-    display: inline;
+    display: flex;
     align-items: center;
-    
-    
-}
+    text-align: center;
+    justify-content: center;
+    }
 .contact-mobile p{
-    font-weight: bold;
     color: var(--cor-fonte);
-    font-size: 25px;
-    padding: 5%;
+    font-size: 23px;
+    
+        
 }
 
 .contact-mobile img{
-    width: 20px;
+    width: 25px;
     border-radius: 5px;
     
 }
@@ -394,25 +395,25 @@ footer div{
     line-height: 30px;
 }
 
+
+
 /*menu dropbox-------------------*/
 
-nav ul{
-    float: right;
-    margin-right: 8px;
-    align-items: center;
- }   
-nav ul li{
-    display:inline-block;
-    line-height: 100px;
-    margin: 0 10px;
-}  
+
+#check{
+    display: none ;
+  }
 
 .checkbtn {
 	float: right;
 	margin: 20px;
 	cursor: pointer;
 	border-radius: 5px;
-  
+    
+}
+
+#sair-mobile{
+    background-color: #150425;
 }
 
 .btn{
@@ -421,26 +422,43 @@ nav ul li{
   padding: 2px;
   border-radius: 1px;
   
+
 }
-
-#check{
-    display: none;
-  }
-
-
-  menu ul{
+.nav-mobile ul{
     position: fixed;
     width: 100%;
     height: 100vh;
     display: block;
-    background-color: rgba(71, 31, 180, 0.753);
-    top: 100px;
-    left: -100%;
-    text-align: center;
-    backdrop-filter: blur(10px);
+    background-color: rgba(126, 75, 226, 0.753);
+    backdrop-filter: blur(8px);
     transition: all .5s;
+    left: -100%;
+    top: 0%;
+}
 
+#check:checked ~ ul{
+    left: 0%;
+    
 
+}
+.nav-mobile ul li a{
+    display: block;
+    color: #b2d1d6;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 15px;
+    border-radius: 0px 0px 8px 6px black;
+    
+    
+    
+}
+.nav-mobile ul li:hover{
+    background-color: #001366;
+    
+    border-radius: 8px;
+    
+}
 
 
 }
