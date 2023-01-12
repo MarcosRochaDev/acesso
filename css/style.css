@@ -452,9 +452,7 @@ main{
 
 .container-news{
     text-align: center;
-    width: 100%;
-    height: auto;
-    padding: 6px;
+    padding: 4px;
     margin: 5px 0px 40px 0px;
     background-color: #73c21a;
     font-size: 9px;
