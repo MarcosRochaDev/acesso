@@ -11,7 +11,7 @@
 }
 body{
     background-color: rgba(95, 158, 160, 0.189);
-    background-image: url(/img/bkfull.jpg);
+    background-image: url(../img/bkfull.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position:top;
