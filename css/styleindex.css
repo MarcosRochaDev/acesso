@@ -61,20 +61,76 @@ header ul{
     padding-top: 50px;
     border-radius: 10px;
     margin-top: 55px;
-    margin-bottom: 300px;
+    margin-bottom: 55px;
     color: #ffffff;
     
     
    }
-
-   .content{
-
-
-    margin: auto;
+   main{
+    align-items: center;
+    text-align: center;
+    
    }
 
-   #footer{
+   .content1{
+    height: 250px;
+    width: 250px;
+    background-color: #5a69efea;
+    display: inline-flex;
+    text-align: center;
+    transition: 250ms;
+    border-radius: 50px 0px 0px 0px;
+    transition: 250ms;
+    
+   }
+   .content2{
+    height: 250px;
+    width: 250px;
+    background-color: #5a69efea;
+    display: inline-flex;
+    text-align: center;
+    transition: 250ms;
+    border-radius: 0px 50px 0px 0px;
+    transition: 250ms;
+    
+   }
 
+   .content3{
+    height: 250px;
+    width: 250px;
+    background-color: #5a69efea;
+    display: inline-flex;
+    text-align: center;
+    transition: 250ms;
+    border-radius: 0px 0px 0px 50px;
+    transition: 250ms;
+    
+   }
+
+   .content4{
+    height: 250px;
+    width: 250px;
+    background-color: #5a69efea;
+    display: inline-flex;
+    text-align: center;
+    transition: 250ms;
+    border-radius: 0px 0px 50px 0px;
+    transition: 250ms;
+    
+   }
+   .content1:hover, .content2:hover, .content3:hover, .content4:hover{
+    height: 250px;
+    width: 250px;
+    background-color: #1e2673f9;
+    transform: scale(1.039);
+    
+   }
+   #footer{
+    height: 100px;
+    width:300px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #4f6132df;
+    margin: auto;
    }
 
 
