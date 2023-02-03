@@ -8,6 +8,7 @@
     font-family: 'Oxygen', sans-serif;
     font-weight: 700;
     box-sizing: border-box;
+    
 }
 body{
     background-color: rgba(95, 158, 160, 0.189);
@@ -35,7 +36,7 @@ header ul{
     text-align: center;
 }
 
-.header li{
+.header li, .header a{
  margin: auto;
  margin-top: 18px;
  color: #ffffff;
@@ -43,16 +44,13 @@ header ul{
  border-radius: 3px;
  text-shadow: #3e0fab 0px 6px 10px;
  letter-spacing: 1px;
- 
+ transition: 200ms;
 }
 
-.header li{
-    margin: auto;
-    margin-top: 18px;
-    color: #ffffff;
-    padding: 5px;
-    border-radius: 3px;
-    text-shadow: #3e0fab 0px 6px 10px;
+.header a:hover{
+    color: #220b35;
+    border-bottom: #3e0fab 1px solid;
+    text-shadow: #ece9f3 0px 6px 10px;
    }
    #nomeh1{
     text-align: center;
