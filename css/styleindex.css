@@ -8,7 +8,7 @@
     font-family: 'Oxygen', sans-serif;
     font-weight: 700;
     box-sizing: border-box;
-    animation: go-back 0.8s;
+    
 }
 body{
     background-color: rgba(95, 158, 160, 0.189);
@@ -27,6 +27,7 @@ header{
     border-radius: 0px 0px 10px 10px;
     top: 0%;
     margin: auto;
+    animation: go-back 2s;
     
 }
 
@@ -63,8 +64,7 @@ header ul{
     margin-top: 55px;
     margin-bottom: 55px;
     color: #ffffff;
-    
-    
+       
     
    }
    main{
@@ -142,7 +142,12 @@ header ul{
  
   }
 
-
+  @media screen and (max-width: 900px){
+    .header ul{
+        width: 400px;
+    }
+    
+  }
 
 
 
