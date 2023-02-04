@@ -83,6 +83,11 @@ header ul{
     transition: 250ms;
     border-radius: 50px 0px 0px 0px;
     transition: 250ms;
+    transition: 250ms;    animation-name: anim-main;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
     
    }
    .content2{
@@ -94,6 +99,11 @@ header ul{
     transition: 250ms;
     border-radius: 0px 50px 0px 0px;
     transition: 250ms;
+    transition: 250ms;    animation-name: anim-main;
+    animation-delay: 4s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
     
    }
 
@@ -105,7 +115,11 @@ header ul{
     text-align: center;
     transition: 250ms;
     border-radius: 0px 0px 0px 50px;
-    transition: 250ms;
+    transition: 250ms;    animation-name: anim-main;
+    animation-delay: 8s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
     
    }
 
@@ -118,6 +132,11 @@ header ul{
     transition: 250ms;
     border-radius: 0px 0px 50px 0px;
     transition: 250ms;
+    animation-name: anim-main;
+    animation-delay: 12s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
     
     
    }
@@ -125,7 +144,9 @@ header ul{
     height: 250px;
     width: 250px;
     background-color: #1e2673f9;
-    transform: scale(1.039);
+    animation-name: none;
+
+
     
    }
    #footer{
@@ -136,10 +157,16 @@ header ul{
     margin: auto;
    }
 
-   @keyframes go-back {
-    from {
-      transform: translateY(-70px);
-    }
+   @keyframes anim-main {
+    0% {
+      transform: scale(1);
+/*       transform: translate(0px);
+ */    }
+
+    100% {
+        transform: scale(1.05);
+        /* transform: translate(5px); */
+      }
  
   }
 
