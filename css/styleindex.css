@@ -28,7 +28,8 @@ header{
     top: 0%;
     margin: auto;
     animation: go-back 2s;
-    
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
 }
 
 header ul{
