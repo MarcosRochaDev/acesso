@@ -6,67 +6,83 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Oxygen', sans-serif;
-    font-weight: 700;
     box-sizing: border-box;
+    position: relative;
     
 }
 body{
-    background-color: rgba(95, 158, 160, 0.189);
-    background-image: url(../img/bk1260.jpg);
+    background-color: rgba(15, 152, 238, 0.189);
+    /* background-image: url(../img/bk1260.jpg); */
     background-repeat:no-repeat;
     background-size:cover;
+    background-attachment: fixed;
     margin: auto;
-    width: auto;
+    
     
 }
 header{
-    width: 95vw;
-    height: 10vh;
+    width: 100%;
     margin: auto;
+    height: 130px;
     position: sticky;
-    background-image: linear-gradient(180deg, #3e0fab, #6c82d6d4,   #a4b2e659);
-    border-radius: 0px 0px 10px 10px;
+    background-color: #0a2563;
+    /* border-radius: 0px 0px 10px 10px; */
     top: 0%;
-    text-align: right;
+    z-index: 1;
+    
+    
 }
-
+.header img{
+    width:250px;
+    position: relative;
+    display: inline-flex;
+    top: 14px;
+    margin-left: 100px;
+    
+}
 header ul{
     display: inline-flex;
     text-transform: uppercase;
-    
+    font-size: 15px;
+    right: 10px;
+    top: 50px;
+    position: absolute;
 }
 
 .header li, .header a{
- margin: auto;
- color: #ffffff;
- padding: 5px;
+ color: #f1ebf8;
+ padding: 5px 5px;
  border-radius: 3px;
- letter-spacing: .4px;
+ letter-spacing: .3px;
+ 
 }
 
 .header a:hover{
-    
-    border-bottom: #3e0fab 2px solid;
-    /* text-shadow: #ece9f3 0px 6px 10px; */
+    transition: 350ms;
+    color: #6a8dc5;
    }
-   #nomeh1{
+
+   .container-main{
     text-align: center;
-    background-color:  #5a69efdf ;
-    width: 450px;
-    height: 200px;
+    align-items: center;
+    display: grid;
+    /* background-color:  #5a69eff3 ; */
+    width: 90vw;
+    height: 650px;
     margin: auto;
-    padding-top: 50px;
     border-radius: 10px;
-    margin-top: 55px;
-    margin-bottom: 55px;
-    color: #ffffff;
-       
-    
-   }
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #251471;
+    position: absolute;
+    }
+    .container-main h1{
+        font-size:50px;
+    }
    main{
     align-items: center;
     text-align: center;
-    
+    top: 500px;
     
    }
    main .content{
@@ -80,7 +96,7 @@ header ul{
     letter-spacing: .5px;
     font-size: 13px;
     transform: translateY(20px);
-    color:white;
+    color:rgb(13, 10, 37);
    }
 
 
