@@ -19,6 +19,7 @@ body{
     margin: auto;
     
     
+    
 }
 header{
     width: 100%;
@@ -62,43 +63,92 @@ header ul{
     color: #6a8dc5;
    }
 
-   .container-main{
+   .container-carrocel{
     display: grid;
-    /* background-color:  #5a69eff3 ; */
-    width: 40vw;
-    height: 300px;
-    margin: auto;
+    width: 85vw;
+    height: 500px;
+    /* margin: auto ; */
     border-radius: 10px;
-    margin-top: 0px;
+    top: 2px;
     margin-bottom: 10px;
     color: #251471;
     border: #0a2563 1px solid;
+    align-items: center;
+    position: absolute;
+    translate: 1900px;
+    transition: 450ms;
+    animation: teste 8s ease-in-out infinite;
+   }
     
+   @keyframes teste{
+    0%{
+        translate: 1900px;
     }
-    .container-main h1{
-        font-size:13px;
+    10%{
+        translate: 0px;
+    }
+    50%{
+        translate: 0px;
+    }
+    95%{
+        translate: 0px;
+    }
+    100%{
+        translate: -1900px;
+
+    }
+   } 
+   
+   .hideCarrocel{
+    transform: translateX(-450px);
+    color: #251471;
+    text-align: center;
+    
+   }
+   .carrocel{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    margin: auto;
+    
+}
+    .container-carrocel #logoAm3{
+        
+        margin: auto;
+        padding: 0%;
+    
+       }
+   
+    
+    .container-carrocel h1{
+        /* font-size: 20px; */
         margin: 0%;
         padding: 0%;
-        
     }
-   main{
+
+   .main{
     align-items: center;
     text-align: center;
-    top: 500px;
+    top: 530px;
+    position: relative;
+    
     
    }
-   main .content{
-    display: inline-table;
+   .main .content{
     padding: 5px;
-    margin: 2px;
-    border-radius: 5px;
-   }
-   .container-main #logoAm3{
-    width: 200px;
     margin: auto;
-    padding: 0%;
-
+    border-radius: 5px;
+    height: 250px;
+    width: 250px;
+    background-color: #5a69efea;
+    position:relative;
+    text-align: center;
+    display: inline-flex;
+    
    }
+
   .descricao{
     line-height: 25px;
     letter-spacing: .5px;
@@ -107,16 +157,6 @@ header ul{
     color:rgb(13, 10, 37);
    }
 
-
-   .content{
-    height: 250px;
-    width: 250px;
-    background-color: #5a69efea;
-    position: relative;
-    text-align: center;
-    
-    
-   }
    main .content:nth-child(1){
     animation-delay: -3s ;
    }
@@ -137,12 +177,17 @@ header ul{
 }
   
 
-   #footer{
+   footer{
     height: 100px;
     width:300px;
     border-radius: 0px 0px 10px 10px;
     background-color: #4f6132df;
-    margin: auto;
+    /* margin: auto auto; */
+    bottom: 0%;
+    position: absolute;
+    text-align: center;
+       
+    
    }
 
 
