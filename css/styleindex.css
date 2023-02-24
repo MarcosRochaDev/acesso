@@ -75,34 +75,22 @@ header ul{
     border: #0a2563 1px solid;
     align-items: center;
     position: absolute;
-    translate: 1900px;
     transition: 450ms;
-    animation: teste 8s ease-in-out infinite;
+    opacity: 0;
+    
    }
     
-   @keyframes teste{
-    0%{
-        translate: 1900px;
-    }
-    10%{
-        translate: 0px;
-    }
-    50%{
-        translate: 0px;
-    }
-    95%{
-        translate: 0px;
-    }
-    100%{
-        translate: -1900px;
-
-    }
-   } 
    
    .hideCarrocel{
-    transform: translateX(-450px);
+    top: 2px;
+    margin-bottom: 10px;
+    display: grid;
+    width: 85vw;
+    height: 500px;
+    position: absolute;
     color: #251471;
     text-align: center;
+    opacity: 1;
     
    }
    .carrocel{
@@ -110,11 +98,12 @@ header ul{
     align-items: center;
     justify-content: center;
     position: relative;
-    display: flex;
+    display: grid;
     margin: auto;
+    overflow: hidden;
     
 }
-    .container-carrocel #logoAm3{
+    .container-carrocel #logoAm3, .hideCarroce #logoAm3{
         
         margin: auto;
         padding: 0%;
@@ -122,7 +111,7 @@ header ul{
        }
    
     
-    .container-carrocel h1{
+    .container-carrocel h1, .hideCarrocel h1{
         /* font-size: 20px; */
         margin: 0%;
         padding: 0%;
